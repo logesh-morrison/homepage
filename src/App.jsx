@@ -193,7 +193,7 @@ function App() {
       duration: 2000,
       delay: 200,
     });
-
+ 
     sr.reveal(
       ".home__img, .section__title, .about__title, .about__list, .about__intro, .about__description, .about__quotes, .contact__content, .footer__content, .footer__copy"
     );
@@ -338,7 +338,7 @@ function App() {
             <img src={logo} alt="Alimenture_logo" className="home__img" />
 
             <div className="home__data">
-              <h1 className="home__title">Alimenture Industries</h1>
+              <h1 className="home__title">SYDNEY SIXERS</h1>
 
               <h3 className="home__subtitle">Private Limited</h3>
 
