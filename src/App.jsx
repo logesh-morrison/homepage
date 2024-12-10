@@ -3,8 +3,8 @@ import "./App.css";
 import { ScrollReveal } from "./js/scrollreveal.min.js";
 import navimg from "./assets/sydney-sixers (logo).svg";
 import logo from "./assets/sydney-sixers.svg";
-import Particles from "react-tsparticles";
-import ParticleJson from "./particles.json";
+// import Particles from "react-tsparticles";
+// import ParticleJson from "./particles.json";
 
 function App() {
   const particleOptions = {
@@ -328,7 +328,7 @@ function App() {
 
       {/* <div id="particles-js"></div> */}
 
-      <Particles id="particles-js" options={particleOptions} />
+      {/* <Particles id="particles-js" options={particleOptions} /> */}
 
       <main className="main">
         <section className="home section" id="home">
