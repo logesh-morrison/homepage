@@ -162,7 +162,8 @@ function App() {
 
   return (
     <div className="App dark-theme">
-      <ParticlesComponent/>
+
+<ParticlesComponent/>
 
       <header className="header" id="header">
         <nav className="nav container">
