@@ -3,6 +3,7 @@ import "./App.css";
 import { ScrollReveal } from "./js/scrollreveal.min.js";
 import navimg from "./assets/sydney-sixers (logo).svg";
 import logo from "./assets/sydney-sixers.svg";
+import ParticlesComponent from "./ParticleComponent.jsx";
 
 
 function App() {
@@ -214,7 +215,7 @@ function App() {
           </div>
         </nav>
       </header>
-
+      <ParticlesComponent/>
       {/* <div id="particles-js"></div> */}
 
       {/* <Particles id="particles-js" options={particleOptions} /> */}
