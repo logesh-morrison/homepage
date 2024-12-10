@@ -3,7 +3,7 @@ import "./App.css";
 import { ScrollReveal } from "./js/scrollreveal.min.js";
 import navimg from "./assets/sydney-sixers (logo).svg";
 import logo from "./assets/sydney-sixers.svg";
-import ParticlesComponent from "./ParticleComponent.jsx";
+// import ParticlesComponent from "./ParticleComponent.jsx";
 
 
 function App() {
@@ -162,7 +162,7 @@ function App() {
 
   return (
     <div className="App dark-theme">
-      <ParticlesComponent/>
+      {/* <ParticlesComponent/> */}
 
       <header className="header" id="header">
         <nav className="nav container">
