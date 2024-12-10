@@ -162,6 +162,8 @@ function App() {
 
   return (
     <div className="App dark-theme">
+      <ParticlesComponent/>
+
       <header className="header" id="header">
         <nav className="nav container">
           <a href="#" className="nav__logo">
@@ -215,7 +217,6 @@ function App() {
           </div>
         </nav>
       </header>
-      <ParticlesComponent/>
       {/* <div id="particles-js"></div> */}
 
 
