@@ -39,7 +39,7 @@ const ParticlesComponent = () => {
     }
   }, []); // Empty dependency array ensures this runs once
 
-  return <div id="particles-js" style={{ position: "absolute", width: "100%", height: "100%", zIndex: -1 }}></div>;
+  return <div id="particles-js" style={{ position: "fixed", width: "100%", height: "100%", zIndex: -1 }}></div>;
 };
 
 export default ParticlesComponent;

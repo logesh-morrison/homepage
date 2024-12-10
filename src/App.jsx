@@ -5,9 +5,7 @@ import navimg from "./assets/sydney-sixers (logo).svg";
 import logo from "./assets/sydney-sixers.svg";
 import ParticlesComponent from "./ParticleComponent.jsx";
 
-
 function App() {
-  
   useEffect(() => {
     const navMenu = document.getElementById("nav-menu");
     const navToggle = document.getElementById("nav-toggle");
@@ -80,7 +78,7 @@ function App() {
       distance: "80px",
       duration: 2000,
       delay: 100,
-    }); 
+    });
 
     sr.reveal(
       ".home__img, .section__title, .about__title, .about__list, .about__intro, .about__description, .about__quotes, .contact__content, .footer__content, .footer__copy"
@@ -162,8 +160,7 @@ function App() {
 
   return (
     <div className="App dark-theme">
-
-<ParticlesComponent/>
+      <ParticlesComponent />
 
       <header className="header" id="header">
         <nav className="nav container">
@@ -219,7 +216,6 @@ function App() {
         </nav>
       </header>
       {/* <div id="particles-js"></div> */}
-
 
       <main className="main">
         <section className="home section" id="home">
@@ -294,20 +290,24 @@ function App() {
 
             <h1 className="about__title">Scope</h1>
             <p className="about__description">
-              Alimenture Industry, having the objective of Natural Farming it
-              has the scope of setup and layout Integrated Farming System which
-              would encompass sustainability in food and provide abundance of
-              Aliment / Nourishment.
+              "Cricket Sphere" aims to promote the objective of holistic cricket
+              development by establishing an integrated system that emphasizes
+              sustainability in the sport. It envisions the setup of programs
+              that will nurture talent, enhance skills, and provide a steady
+              abundance of opportunities for players, ensuring the future growth
+              and nourishment of the cricketing world.
             </p>
 
             <h1 className="about__title">How it would function?</h1>
             <p className="about__description">
-              As a food manufacturing industry Alimenture Industry would be
-              Cluster and muster of people in the field of Agriculture and
-              Farming Industries and it would be the central and capital by
-              connecting them. It would lay out large agricultural land for
-              scaling up the cultivation and production and setup production
-              units and broadening wider supply chain.
+              "Cricket Sphere" would be a central hub and gathering point for
+              all cricket-related professionals, including players, coaches, and
+              enthusiasts. It would serve as the focal point by connecting
+              various aspects of the cricket industry. The initiative would
+              establish large-scale cricket academies and training centers,
+              expand the development of talent, and set up state-of-the-art
+              facilities, thereby broadening the reach of cricket's growth and
+              strengthening its global infrastructure.
             </p>
 
             <div className="about__quotes__container">
