@@ -218,7 +218,6 @@ function App() {
       <ParticlesComponent/>
       {/* <div id="particles-js"></div> */}
 
-      {/* <Particles id="particles-js" options={particleOptions} /> */}
 
       <main className="main">
         <section className="home section" id="home">
